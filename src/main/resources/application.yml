@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: Govinda-Finance-App
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: govindafinance
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ramp051346@gmail.com
+    password: tzox tjvl vphb iijh
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    org.hibernate.validator: DEBUG
+
